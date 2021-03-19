@@ -9,7 +9,7 @@ c = Consumer({
     }
 })
 
-c.subscribe(['Crunchy3'])
+c.subscribe(['HpeOneViewAlarms'])
 
 while True:
     msg = c.poll(10)
